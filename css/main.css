@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+.parent {
+display: flex;
+justify-content: center;
+}
+
+.parent > div {
+
+    height: 200px;
+    background: gray;
+    padding: 30px 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.swing {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
